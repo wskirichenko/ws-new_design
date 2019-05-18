@@ -1,0 +1,10 @@
+$sidenavWidth: 200px;
+.navigation {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: $sidenavWidth;
+	height: 100vh;
+	background-color: rgba($color: #009dff7e, $alpha: 0.5);
+	
+}

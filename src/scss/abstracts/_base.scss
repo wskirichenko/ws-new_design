@@ -1,0 +1,23 @@
+
+html {
+    // This defines what 1rem is
+    font-size: 62.5%;
+}
+
+
+body {
+	// font-family: 'Futura','Trebuchet MS',Arial,sans-serif;
+	font-family: 'Muli', sans-serif;
+	// font-family: 'Futura Book';
+	height: 100%;
+	margin: 0;
+	* {
+		box-sizing: border-box;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	outline: none;
+}

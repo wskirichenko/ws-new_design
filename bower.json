@@ -1,0 +1,22 @@
+{
+  "name": "WS-new-design",
+  "description": "New design for the WebSailors landing",
+  "main": "index.html",
+  "authors": [
+    "WS-GAK"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "WebSailors"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "jq-router": "^4.3.0",
+    "jquery": "^3.4.1"
+  }
+}

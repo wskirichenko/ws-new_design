@@ -1,0 +1,43 @@
+{
+  "name": "WS-new-design",
+  "version": "1.0.0",
+  "description": "New design for the WebSailors landing",
+  "main": "index.html",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wskirichenko/ws-new_design.git"
+  },
+  "keywords": [
+    "WebSailors"
+  ],
+  "author": "WS-GAK",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/wskirichenko/ws-new_design.git",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "express": "^4.16.4",
+    "gulp-connect-ssi": "^0.4.0",
+    "jq-router": "^4.3.0",
+    "nodemon": "^1.18.7",
+    "sass": "^1.15.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cache": "^1.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-minify": "^3.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
