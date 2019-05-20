@@ -4,30 +4,48 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-image: url(../../img/osminog1.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
-	/* ---- Arrow down ---------------- */ 
-	.arrow {
-		position: absolute;
-		top: 20px;
-		left: 20px;
-	}
 	
-	.arrow::before,
-	.arrow::after {
-		position: relative;
-		content: '';
-		display: block;
-		width: 20px;
-		height: 2px;
-		background: #000;
-	}
-	
-	.arrow::before {
-		transform: rotate(45deg);
-	}
-	
-	.arrow::after {
-		left: 14px;
-		transform: rotate(-45deg);
+	&__main {
+		min-width: 100rem;
+		height: 80vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		&__logo {
+			width: 36rem;
+			height: 10rem;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-image: url(../../img/logo-ws.png);
+		}
+
+		&__heder {
+			font-size: 8rem;
+		}
+
+		/* ---- Arrow down ---------------- */ 
+		.arrow::before,
+		.arrow::after {
+			position: relative;
+			content: '';
+			display: block;
+			width: 20px;
+			height: 2px;
+			background: #000;
+		}
+		
+		.arrow::before {
+			transform: rotate(45deg);
+		}
+		
+		.arrow::after {
+			left: 14px;
+			transform: rotate(-45deg);
+		}
 	}
 }
