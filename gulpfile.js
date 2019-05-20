@@ -78,7 +78,7 @@ gulp.task("html", function() {
 gulp.task('browserSync', () => {
 	browserSync.init({
 		server: {
-				baseDir: ['./', './src']
+				baseDir: ['./', './src', './pages']
 		}
 	});
 });
